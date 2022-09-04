@@ -2,19 +2,32 @@
     box-sizing: border-box;
 }
 
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
 header{
     padding:10px;
 }
 
+table,tr{
+    border : 1px solid white ;
+    border-collapse: collapse;
+}
+
+td{
+    padding: 2px;
+}
+
 button{
-    background-color: cyan;
+    background-color: rgb(14, 198, 198);
     border : white;
     color :white;
     align-content: center;
     padding: 10px;
     margin: 10px;
     font-size: 8px;
-
 }
 
 sup{
@@ -39,6 +52,8 @@ hr{
 
 .cla1{
     display: flex;
+    justify-content: space-between;
+
 }
 
 .rightgrid{
@@ -46,8 +61,27 @@ hr{
     font-weight: bold;
 }
 
+.midc{
+    width: 33%;
+}
+
 .cont{
-    margin:10px;
+    padding: 20px;
+}
+
+.bcont{
+    font-size: 10px;
+}
+
+.bhead{
+    font-size: 15px;
+    padding-bottom: 7px;
+}
+
+.bbcont{
+    width: 33%;
+    padding: 20px;
+    border-right: 2px solid white;
 }
 
 .sub{
@@ -66,23 +100,43 @@ hr{
     color:white;
 }
 
+#hcare{
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+}
+
+#medil{
+    font-size: 30px;
+}
+
+#cont{
+    font-size: 10px;
+    padding-left: 400px;
+    padding-right: 400px;
+    text-align: center;
+}
+
 #hmain{
     text-align: center;
 }
 
 #mid{
     display: flex;
-    margin: 10px;
+    margin-left: 40px;
+    
 }
 
 #head1{
     font-family: sans-serif;
     font-weight: bolder;
+    padding-top: 30px;
 }
 
 #bottom{
     margin: 20px;
+    margin-top: 40px;
     padding: 10px;
-    background-color: cyan;
+    background-color: rgb(14, 198, 198);
     color: white;
 }
