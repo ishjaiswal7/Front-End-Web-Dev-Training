@@ -9,8 +9,18 @@ header{
 sup{
     color: red;
 }
+
+a{
+    text-decoration: none;
+    padding: 5px;
+}
+
 .cla1{
     display: flex;
+}
+
+.leftgrid{
+    text-decoration: rgb(10, 9, 10) ;
 }
 
 .cont{
@@ -21,10 +31,15 @@ sup{
     color: grey;
 }
 
+#navp{
+    text-align: right ;
+}
+
 #div1{
     background-image: url("desk.jpg");
     color:white;
 }
+
 #hmain{
     text-align: center;
 }
@@ -37,4 +52,5 @@ sup{
     margin: 20px;
     padding: 10px;
     background-color: cyan;
+    color: white;
 }
