@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    padding:10px;
+}
+
+sup{
+    color: red;
+}
+.cla1{
+    display: flex;
+}
+
+.cont{
+    margin:10px;
+}
+
+.sub{
+    color: grey;
+}
+
+#div1{
+    background-image: url("desk.jpg");
+    color:white;
+}
+#hmain{
+    text-align: center;
+}
+
+#mid{
+    display: grid;
+}
+
+#bottom{
+    margin: 20px;
+    padding: 10px;
+    background-color: cyan;
+}
