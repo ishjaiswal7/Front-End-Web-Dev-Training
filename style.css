@@ -11,7 +11,10 @@ button{
     border : white;
     color :white;
     align-content: center;
-    padding: 4px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 8px;
+
 }
 
 sup{
@@ -21,10 +24,17 @@ sup{
 a{
     text-decoration: none;
     padding: 5px;
+    font-size: 10px;
+    color: white;
 }
 
 hr{
     border-color: darkgoldenrod;
+}
+
+.mhead{
+    margin: 2px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .cla1{
@@ -32,7 +42,8 @@ hr{
 }
 
 .rightgrid{
-    text-decoration: rgb(10, 9, 10) ;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .cont{
@@ -41,6 +52,7 @@ hr{
 
 .sub{
     color: grey;
+    font-size: 10px;
 }
 
 #navp{
@@ -48,7 +60,9 @@ hr{
 }
 
 #div1{
-    background-image: url("desk.jpg");
+    background-image: url("Rdesk.jpg");
+    height: 300px;
+
     color:white;
 }
 
@@ -58,10 +72,12 @@ hr{
 
 #mid{
     display: flex;
+    margin: 10px;
 }
 
-#right{
-    display: flex;
+#head1{
+    font-family: sans-serif;
+    font-weight: bolder;
 }
 
 #bottom{
